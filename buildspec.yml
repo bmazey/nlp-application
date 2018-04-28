@@ -9,4 +9,4 @@ phases:
 artifacts:
   files:
     - 'Dockerfile'
-    - target/nlp-application-1.0-SNAPSHOT.jar
+    - target/spring-nlp-1.0-SNAPSHOT.jar
