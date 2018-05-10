@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 public class PartOfSpeechController {
 
     /**
-     * test comment!
+     * test comment! another test comment
      */
 
     @Autowired
