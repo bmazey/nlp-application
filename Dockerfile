@@ -3,5 +3,5 @@ VOLUME /tmp
 ADD target/spring-nlp-1.0-SNAPSHOT.jar app.jar
 EXPOSE 8090
 RUN sh -c 'touch /app.jar'
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar", "-Xmx896M"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 
