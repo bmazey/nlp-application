@@ -1,1 +1,1 @@
-web: java -jar app.jar -Xms256m
+web: java -jar target/app.jar -Xmx896M
