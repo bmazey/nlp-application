@@ -33,10 +33,6 @@ public class PartOfSpeechController {
         return ResponseEntity.ok("success!");
     }
 
-    @RequestMapping(value = "/api/language/alyssa", method = RequestMethod.GET)
-    @ResponseBody
-    public ResponseEntity<?> getAlyssaGreeting() { return ResponseEntity.ok("yeehaw!"); }
-
     @RequestMapping(value = "/api/language/pos", method = RequestMethod.POST)
     @ResponseBody
     public List<PartOfSpeechDto> postText(@Valid @RequestBody TextDto textDto) {
